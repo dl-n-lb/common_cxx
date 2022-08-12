@@ -1,3 +1,6 @@
+#ifndef OPT_PARSER_HXX_
+#define OPT_PARSER_HXX_
+
 #include <stdio.h>
 #include <vector>
 #include <string>
@@ -10,9 +13,9 @@
 #include <cmath>
 
 #include "../types/type_alias.hxx"
-
+#ifndef OPT_NO_MACRO
 #define with_default(val) #val // little bit of macro >:)
-
+#endif
 // OptParser is a class that parses command line options 
 // by overloading the make function with any custom type 
 // OptParser can be made to accept that type as well, 
@@ -65,7 +68,7 @@ class OptParser {
   public: 
     OptAdder(OptParser* parent) : _parent(parent) {}
 
-    OptAdder operator()(str flag, str description, value_t val) {
+    OptAdder operator()(str flag, str description, value_t val = value_t{}) {
       _parent->add_option(flag, description, val);
       return OptAdder(_parent);
     }
@@ -170,4 +173,4 @@ private:
   hashmap<str, value_t> names_to_values;
 };
 
-
+#endif OPT_PARSER_HXX_
