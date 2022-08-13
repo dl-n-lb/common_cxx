@@ -9,6 +9,9 @@ function, hence that is the primary goal of this code. Functioning, with minimal
 necessary (for example, command line parsing needn't be fast, but an API wrapper around vulkan 
 *should*).
 
+**NOTE**
+All simd based functionality relies on `std::experimental::simd` (provided in libstdc++ in versions >=11)
+
 ## in each section
 To get docs for each thing, visit its section and locate the relevant area(s) of the README.
 ### types
