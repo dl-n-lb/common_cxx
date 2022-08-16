@@ -31,9 +31,9 @@ T make(str val) {
 }
 
 template<>
-i32 make(str val) {
-  i32 digit = pow(10, val.size()-1);
-  i32 result = 0;
+u32 make(str val) {
+  u32 digit = pow(10, val.size()-1);
+  u32 result = 0;
   for (auto c : val) {
     auto adj = c - '0';
     if (adj > 9 || adj < 0) {
@@ -68,7 +68,7 @@ class OptParser {
   public: 
     OptAdder(OptParser* parent) : _parent(parent) {}
 
-    OptAdder operator()(str flag, str description, value_t val = value_t{}) {
+    OptAdder operator()(str flag, str description, value_t val = value_t{""}) {
       _parent->add_option(flag, description, val);
       return OptAdder(_parent);
     }
@@ -117,7 +117,7 @@ public:
   }
 
   void parse(i32 argc, char** argv) {
-    auto parser_error = [=](const char* arg_, const char* extra_msg = "") {
+    auto parser_error = [this, argv](const char* arg_, const char* extra_msg = "") {
       fprintf(stderr, "Error: argument %s is not recognised.\n%s", arg_, extra_msg);
       print_help(argv);
       exit(1);
@@ -173,4 +173,4 @@ private:
   hashmap<str, value_t> names_to_values;
 };
 
-#endif OPT_PARSER_HXX_
+#endif //OPT_PARSER_HXX_

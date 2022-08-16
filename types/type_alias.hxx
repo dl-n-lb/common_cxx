@@ -29,3 +29,19 @@ using arr = std::array<T, N>;
 
 template<typename T_key, typename T_val>
 using hashmap = std::unordered_map<T_key, T_val>;
+
+// simd types 
+using std::experimental::native_simd;
+
+using  u8v = native_simd<u8>;
+using u16v = native_simd<u16>;
+using u32v = native_simd<u32>;
+using u64v = native_simd<u64>;
+
+using  i8v = native_simd<i8>;
+using i16v = native_simd<i16>;
+using i32v = native_simd<i32>;
+using i64v = native_simd<i64>;
+
+using f32v = native_simd<f32>;
+using f64v = native_simd<f64>;

@@ -1,6 +1,7 @@
 # utils
 ## index
 - [cmd parser](#cmd-parser)
+- [ncurses app](#ncurses-app)
 
 ## cmd parser
 ### about
@@ -36,3 +37,31 @@ opt.add_options()("particle-count", "the number of particles", value("200");
 ### TODO:
 - Make it s.t. individual arguments can specify their own shortening
 - Along w this, make it s.t. shortened versions needn't be single characters (perhaps)
+- ADD THE PROPER HELP COMMAND (URGENT)
+
+
+## ncurses app
+### about 
+simple wrapper around the ncurses api (WIP)
+**NOTE**
+this literally does nothing at the moment
+
+###linking
+this is a header only utility, so just include the file to use it in your projects
+
+### usage 
+To use, create an ncurses app using:
+```cpp
+NCursesApp app{};
+```
+
+And then run:
+```cpp
+fun = [=](WINDOW*, char) {... event function};
+app.loop(fun);
+```
+To run the app. The app will automatically close on the exit button press.
+
+### TODO:
+- customizable exit button/function!
+
