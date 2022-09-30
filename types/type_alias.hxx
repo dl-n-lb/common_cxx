@@ -78,4 +78,4 @@ using f32v4 = fixed_size_simd<f32, 4>;
 using f64v4 = fixed_size_simd<f64, 4>;
 
 template<typename T, int N>
-using simd_t = native_simd<T, N>;
+using nsimd_t = fixed_size_simd<T, N>;

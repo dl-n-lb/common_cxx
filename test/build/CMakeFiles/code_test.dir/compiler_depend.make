@@ -374,8 +374,283 @@ CMakeFiles/code_test.dir/code_test.cxx.o: /home/matt/Documents/code/cpp/common/t
   _deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
   _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
   _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
-  _deps/googletest-src/googletest/include/gtest/gtest_prod.h
+  _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+  /home/matt/Documents/code/cpp/common/types/type_alias.hxx \
+  /usr/include/c++/12.2.0/experimental/simd \
+  /usr/include/c++/12.2.0/experimental/bits/simd_detail.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_detail.h \
+  /usr/include/c++/12.2.0/experimental/bits/numeric_traits.h \
+  /usr/include/c++/12.2.0/bitset \
+  /usr/include/c++/12.2.0/cstring \
+  /usr/include/c++/12.2.0/cmath \
+  /usr/include/math.h \
+  /usr/include/bits/math-vector.h \
+  /usr/include/bits/libm-simd-decl-stubs.h \
+  /usr/include/bits/flt-eval-method.h \
+  /usr/include/bits/fp-logb.h \
+  /usr/include/bits/fp-fast.h \
+  /usr/include/bits/mathcalls-helper-functions.h \
+  /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathcalls-narrow.h \
+  /usr/include/bits/iscanonical.h \
+  /usr/include/c++/12.2.0/bits/specfun.h \
+  /usr/include/c++/12.2.0/tr1/gamma.tcc \
+  /usr/include/c++/12.2.0/tr1/special_function_util.h \
+  /usr/include/c++/12.2.0/tr1/bessel_function.tcc \
+  /usr/include/c++/12.2.0/tr1/beta_function.tcc \
+  /usr/include/c++/12.2.0/tr1/ell_integral.tcc \
+  /usr/include/c++/12.2.0/tr1/exp_integral.tcc \
+  /usr/include/c++/12.2.0/tr1/hypergeometric.tcc \
+  /usr/include/c++/12.2.0/tr1/legendre_function.tcc \
+  /usr/include/c++/12.2.0/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12.2.0/tr1/poly_hermite.tcc \
+  /usr/include/c++/12.2.0/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12.2.0/tr1/riemann_zeta.tcc \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xtestintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/immintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xopintrin.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_fixed_size.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_scalar.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_builtin.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_converter.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_x86.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_x86_conversions.h \
+  /usr/include/c++/12.2.0/experimental/bits/simd_math.h \
+  /home/matt/Documents/code/cpp/common/types/vecn.hxx \
+  /home/matt/Documents/code/cpp/common/util/cmd_opts.hxx \
+  /home/matt/Documents/code/cpp/common/types/type_alias.hxx
 
+
+/usr/include/c++/12.2.0/experimental/bits/simd_x86_conversions.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/ammintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mm3dnow.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxbf16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxint8intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/vaesintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fp16vlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fp16intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vp2intersectintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vnnivlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vnniintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmi2intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx5124vnniwintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512erintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avxvnniintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xtestintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsavesintrin.h:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_fixed_size.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/wbnoinvdintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/uintrintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/popcntintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pconfigintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mwaitintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/movdirintrin.h:
+
+/home/matt/Documents/code/cpp/common/types/vecn.hxx:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/lwpintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/enqcmdintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clzerointrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/keylockerintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/bmi2intrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/adxintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/ia32intrin.h:
+
+/usr/include/c++/12.2.0/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/12.2.0/tr1/poly_hermite.tcc:
+
+/usr/include/c++/12.2.0/tr1/ell_integral.tcc:
+
+/usr/include/c++/12.2.0/tr1/beta_function.tcc:
+
+/usr/include/c++/12.2.0/tr1/special_function_util.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/wmmintrin.h:
+
+/usr/include/c++/12.2.0/bits/specfun.h:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/bits/mathcalls-narrow.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vpopcntdqintrin.h:
+
+/usr/include/bits/fp-logb.h:
+
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/12.2.0/tr1/poly_laguerre.tcc:
+
+/usr/include/math.h:
+
+/usr/include/c++/12.2.0/cmath:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clflushoptintrin.h:
+
+/usr/include/c++/12.2.0/bitset:
+
+/usr/include/c++/12.2.0/experimental/bits/numeric_traits.h:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_detail.h:
+
+/usr/include/c++/12.2.0/experimental/simd:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/x86gprintrin.h:
+
+/home/matt/Documents/code/cpp/common/types/type_alias.hxx:
 
 _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
@@ -401,6 +676,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-filepath.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/prfchwintrin.h:
+
 _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
 /usr/include/c++/12.2.0/bits/stl_multiset.h:
@@ -411,6 +688,10 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/c++/12.2.0/bits/stl_tree.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmiintrin.h:
+
+/usr/include/bits/mathcalls.h:
+
 /usr/include/c++/12.2.0/bits/quoted_string.h:
 
 /usr/include/c++/12.2.0/iomanip:
@@ -419,9 +700,15 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/bits/types/struct_sigstack.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/hresetintrin.h:
+
 /usr/include/bits/ss_flags.h:
 
 /usr/include/bits/types/stack_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vpopcntdqvlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/rdseedintrin.h:
 
 /usr/include/bits/sigcontext.h:
 
@@ -451,9 +738,15 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-param-util.h:
 
 /usr/include/c++/12.2.0/bits/node_handle.h:
 
+/usr/include/c++/12.2.0/experimental/bits/simd_math.h:
+
+/usr/include/c++/12.2.0/tr1/modified_bessel_func.tcc:
+
 /usr/include/c++/12.2.0/bits/hashtable_policy.h:
 
 /usr/include/c++/12.2.0/bits/hashtable.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pmmintrin.h:
 
 /usr/include/c++/12.2.0/unordered_map:
 
@@ -485,6 +778,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-death-test.h:
 
 /usr/include/c++/12.2.0/bits/atomic_timed_wait.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xopintrin.h:
+
 /usr/include/c++/12.2.0/bits/semaphore_base.h:
 
 /usr/include/c++/12.2.0/bits/stl_algo.h:
@@ -505,6 +800,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port-arch.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
+/usr/include/c++/12.2.0/tr1/exp_integral.tcc:
+
 /usr/include/bits/types/struct_statx.h:
 
 /usr/include/bits/types/struct_statx_timestamp.h:
@@ -514,6 +811,8 @@ _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 /usr/include/asm-generic/posix_types.h:
 
 /usr/include/asm/posix_types_64.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mmintrin.h:
 
 /usr/include/linux/stddef.h:
 
@@ -527,7 +826,13 @@ _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/linux/types.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512pfintrin.h:
+
 /usr/include/linux/stat.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mwaitxintrin.h:
 
 /usr/include/bits/struct_stat.h:
 
@@ -545,7 +850,13 @@ _deps/googletest-src/googletest/include/gtest/internal/custom/gtest-port.h:
 
 /usr/include/c++/12.2.0/ext/numeric_traits.h:
 
+/usr/include/c++/12.2.0/tr1/legendre_function.tcc:
+
 /usr/include/bits/errno.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/immintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/x86intrin.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 
@@ -559,6 +870,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 
 /usr/include/ctype.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vlbwintrin.h:
+
 /usr/include/bits/waitflags.h:
 
 /usr/include/c++/12.2.0/bits/ranges_uninitialized.h:
@@ -568,6 +881,10 @@ _deps/googletest-src/googletest/include/gtest/gtest-matchers.h:
 /usr/include/c++/12.2.0/cstdint:
 
 /usr/include/c++/12.2.0/bits/nested_exception.h:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_converter.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/gfniintrin.h:
 
 /usr/include/c++/12.2.0/typeinfo:
 
@@ -587,6 +904,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/bits/basic_string.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/vpclmulqdqintrin.h:
+
 /usr/include/bits/statx.h:
 
 /usr/include/c++/12.2.0/bits/sstream.tcc:
@@ -595,6 +914,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/bits/streambuf.tcc:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/cetintrin.h:
+
 /usr/include/locale.h:
 
 /usr/include/bits/types/wint_t.h:
@@ -602,6 +923,12 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/c++/12.2.0/cwchar:
 
 /usr/include/bits/types/timer_t.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vbmi2vlintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tbmintrin.h:
+
+/usr/include/c++/12.2.0/tr1/bessel_function.tcc:
 
 /usr/include/c++/12.2.0/iosfwd:
 
@@ -615,6 +942,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/bits/local_lim.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsavecintrin.h:
+
 /usr/include/c++/12.2.0/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/12.2.0/ios:
@@ -622,6 +951,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/c++/12.2.0/concepts:
 
 /usr/include/bits/posix2_lim.h:
+
+/usr/include/c++/12.2.0/tr1/gamma.tcc:
 
 /usr/include/bits/types/idtype_t.h:
 
@@ -636,6 +967,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/c++/12.2.0/ext/concurrence.h:
 
 /usr/include/c++/12.2.0/bits/invoke.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx2intrin.h:
 
 /usr/include/c++/12.2.0/debug/assertions.h:
 
@@ -671,6 +1004,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/bits/struct_rwlock.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bf16vlintrin.h:
+
 /usr/include/libintl.h:
 
 /usr/include/bits/endianness.h:
@@ -691,11 +1026,15 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/memory:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vp2intersectvlintrin.h:
+
 /usr/include/c++/12.2.0/compare:
 
 /usr/include/c++/12.2.0/bits/stl_vector.h:
 
 /usr/include/c++/12.2.0/bits/stl_iterator_base_types.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/mm_malloc.h:
 
 /usr/include/c++/12.2.0/bits/postypes.h:
 
@@ -715,6 +1054,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/pstl/execution_defs.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512vldqintrin.h:
+
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/gthr.h:
 
 /usr/include/bits/atomic_wide_counter.h:
@@ -731,6 +1072,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/linux/limits.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512fintrin.h:
+
 /usr/include/bits/long-double.h:
 
 /usr/include/c++/12.2.0/bits/move.h:
@@ -746,6 +1089,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/sys/ucontext.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/c++/12.2.0/cstring:
 
 /usr/include/c++/12.2.0/condition_variable:
 
@@ -764,6 +1109,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/sys/cdefs.h:
 
 /usr/include/c++/12.2.0/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fxsrintrin.h:
 
 /usr/include/c++/12.2.0/bits/functexcept.h:
 
@@ -797,6 +1144,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/bits/basic_ios.h:
 
+/usr/include/c++/12.2.0/experimental/bits/simd.h:
+
 /usr/include/bits/cpu-set.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/c++locale.h:
@@ -813,11 +1162,15 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/bits/alloc_traits.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512ifmavlintrin.h:
+
 /usr/include/c++/12.2.0/string_view:
 
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/c++/12.2.0/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/clwbintrin.h:
 
 /usr/include/c++/12.2.0/debug/debug.h:
 
@@ -847,7 +1200,15 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/c++/12.2.0/bits/allocator.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512bitalgintrin.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/xsaveoptintrin.h:
+
 /usr/include/bits/types.h:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_x86.h:
+
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/c++/12.2.0/bits/stl_uninitialized.h:
 
@@ -865,6 +1226,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 
 /usr/include/bits/setjmp.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/sgxintrin.h:
+
 /usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/pthread_stack_min-dynamic.h:
@@ -872,6 +1235,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 /usr/include/bits/sigstksz.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/syslimits.h:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_scalar.h:
 
 /usr/include/bits/types/sigval_t.h:
 
@@ -884,6 +1249,8 @@ _deps/googletest-src/googletest/include/gtest/gtest.h:
 _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 
 /usr/include/c++/12.2.0/bits/locale_classes.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fmaintrin.h:
 
 /usr/include/c++/12.2.0/bits/range_access.h:
 
@@ -927,6 +1294,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 
 /usr/include/c++/12.2.0/cstdlib:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/f16cintrin.h:
+
 /usr/include/stdlib.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/stdint.h:
@@ -936,6 +1305,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-internal.h:
 /usr/include/c++/12.2.0/numbers:
 
 /usr/include/bits/wctype-wchar.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/avx512dqintrin.h:
 
 /usr/include/c++/12.2.0/bits/hash_bytes.h:
 
@@ -968,6 +1339,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h:
 /usr/include/bits/endian.h:
 
 /usr/include/c++/12.2.0/bits/atomic_base.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tmmintrin.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
@@ -1007,7 +1380,11 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
 /usr/include/c++/12.2.0/stdexcept:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/tsxldtrkintrin.h:
+
 /usr/include/c++/12.2.0/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/pkuintrin.h:
 
 /usr/include/c++/12.2.0/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
@@ -1023,6 +1400,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
 /usr/include/c++/12.2.0/ext/aligned_buffer.h:
 
+/usr/include/c++/12.2.0/tr1/hypergeometric.tcc:
+
 /usr/include/c++/12.2.0/bits/stl_tempbuf.h:
 
 /usr/include/c++/12.2.0/bits/atomic_wait.h:
@@ -1033,7 +1412,11 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed/limits.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/waitpkgintrin.h:
+
 /usr/include/limits.h:
+
+/usr/include/bits/math-vector.h:
 
 /usr/include/bits/uio_lim.h:
 
@@ -1054,6 +1437,8 @@ _deps/googletest-src/googletest/include/gtest/internal/gtest-port.h:
 /usr/include/errno.h:
 
 /usr/include/bits/getopt_posix.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/lzcntintrin.h:
 
 /usr/include/c++/12.2.0/bits/unordered_map.h:
 
@@ -1097,13 +1482,19 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/12.2.0/sstream:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/fma4intrin.h:
+
 /usr/include/string.h:
 
 /usr/include/signal.h:
 
 /usr/include/strings.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include/bmiintrin.h:
+
 /usr/include/c++/12.2.0/iostream:
+
+/usr/include/c++/12.2.0/experimental/bits/simd_builtin.h:
 
 /usr/include/c++/12.2.0/bits/stl_iterator.h:
 
@@ -1113,9 +1504,13 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/12.2.0/bits/locale_facets_nonio.h:
 
+/home/matt/Documents/code/cpp/common/util/cmd_opts.hxx:
+
 /usr/include/bits/locale.h:
 
 /usr/include/c++/12.2.0/ctime:
+
+/usr/include/bits/fp-fast.h:
 
 /usr/include/wctype.h:
 

@@ -16,6 +16,13 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
+include_directories(
+  ../types/ 
+  ../la/ 
+  ../graphics/ 
+  ../util/
+)
+
 add_executable(
   code_test 
   code_test.cxx
