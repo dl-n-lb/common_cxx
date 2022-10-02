@@ -61,7 +61,11 @@ fun = [=](WINDOW*, char) {... event function};
 app.loop(fun);
 ```
 To run the app. The app will automatically close on the exit button press.
+To set the exit button use:
+```cpp
+app.set_exit_key(char key);
+```
+The default key is 'q' (not 'Q'!).
 
 ### TODO:
-- customizable exit button/function!
 

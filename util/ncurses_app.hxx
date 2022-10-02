@@ -10,6 +10,8 @@
 class NCursesApp {
   WINDOW *win;
 
+  char exit_key = 'q';
+
 public:
   NCursesApp(const u32 width = 0, const u32 height = 0,
              const u32 tlx = 0, const u32 tly = 0) {
@@ -30,12 +32,16 @@ public:
     }
   }
 
+  void set_exit_key(char key) {
+    exit_key = key;
+  }
+
   void loop(auto key_event_function) {
     bool done = false;
     for (;!done;) {
       i32 ch = getch();
       switch (ch) {
-        case 'q': case 'Q': done = true; break;
+        case exit_key: done = true; break;
         default: key_event_function(win, ch); break;
       }
       wrefresh(stdscr);
