@@ -23,8 +23,7 @@ To get docs for each thing, visit its section and locate the relevant area(s) of
 
 
 ## TODO:
-- Add tests
-- Build system for tests
-- Write the LA
+- Add tests (IN PROGRESS)
+- Write the LA (IN PROGRESS)
 - Write the Vk wrapper
-- Write docs for all of the above + cmd parser
+- Write docs for above
