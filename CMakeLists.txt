@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
 project(Common_Code)
-set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -18,15 +17,15 @@ FetchContent_MakeAvailable(googletest)
 enable_testing()
 
 include_directories(
-  ../types/
-  ../la/
-  ../graphics/
-  ../util/
+  ./types/
+  ./la/
+  ./graphics/
+  ./util/
 )
 
 add_executable(
   code_test
-  code_test.cxx
+  test/code_test.cxx
 )
 
 target_link_libraries(
