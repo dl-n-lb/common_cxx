@@ -21,6 +21,7 @@ include_directories(
   ./la/
   ./graphics/
   ./util/
+  ./
 )
 
 add_executable(
