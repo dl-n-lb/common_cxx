@@ -13,7 +13,7 @@ public:
 
   void setTargetFPS(const u32 fps);
 
-    RaylibRenderer& getRenderer();
+  RaylibRenderer& getRenderer(Color col);
 
   ~RaylibWindow();
 };
