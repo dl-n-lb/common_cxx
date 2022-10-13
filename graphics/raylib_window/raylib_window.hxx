@@ -13,7 +13,7 @@ public:
 
   void setTargetFPS(const u32 fps);
 
-  RaylibRenderer& getRenderer(Color col);
+  RaylibRenderer getRenderer(Color col);
 
   ~RaylibWindow();
 };
@@ -35,12 +35,12 @@ bool RaylibWindow::shouldClose() {
  return WindowShouldClose();
 }
 
-RaylibRenderer& RaylibWindow::getRenderer(Color col) {
+RaylibRenderer RaylibWindow::getRenderer(Color col) {
   return RaylibRenderer(col);
 }
 
 void RaylibWindow::Update(std::function<void(RaylibWindow&)> update_fn) {
-  update_fn();
+  update_fn(&(*this));
   SwapScreenBuffer();
 }
 
