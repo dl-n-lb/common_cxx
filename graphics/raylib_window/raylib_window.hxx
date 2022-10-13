@@ -36,7 +36,7 @@ bool RaylibWindow::shouldClose() {
 }
 
 RaylibRenderer& RaylibWindow::getRenderer(Color col) {
-  retrun RaylibRenderer(col);
+  return RaylibRenderer(col);
 }
 
 void RaylibWindow::Update(std::function<void(RaylibWindow&)> update_fn) {
