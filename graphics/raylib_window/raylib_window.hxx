@@ -9,7 +9,7 @@ public:
 
   bool shouldClose();
 
-  void Update(std::function<void(RaylibWindow&)> update_fn);
+  void Update(std::function<void(RaylibWindow*)> update_fn);
 
   void setTargetFPS(const u32 fps);
 
@@ -39,8 +39,8 @@ RaylibRenderer RaylibWindow::getRenderer(Color col) {
   return RaylibRenderer(col);
 }
 
-void RaylibWindow::Update(std::function<void(RaylibWindow&)> update_fn) {
-  update_fn(&(*this));
+void RaylibWindow::Update(std::function<void(RaylibWindow*)> update_fn) {
+  update_fn(this);
   SwapScreenBuffer();
 }
 
