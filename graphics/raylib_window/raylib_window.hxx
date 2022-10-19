@@ -36,12 +36,15 @@ bool RaylibWindow::shouldClose() {
 }
 
 RaylibRenderer RaylibWindow::getRenderer(Color col) {
+  printf("Created Renderer");
   return RaylibRenderer(col);
 }
 
 void RaylibWindow::Update(std::function<void(RaylibWindow*)> update_fn) {
   update_fn(this);
+  printf("Updated Screen Contents");
   SwapScreenBuffer();
+  printf("Swapped buffers");
 }
 
 #endif
