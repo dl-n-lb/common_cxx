@@ -24,7 +24,7 @@ RaylibRenderer::RaylibRenderer() {
 
 RaylibRenderer::RaylibRenderer(Color col) {
   BeginDrawing();
-  printf("Cleared Background");
+  printf("Cleared Background\n");
   ClearBackground(col);
 }
 
