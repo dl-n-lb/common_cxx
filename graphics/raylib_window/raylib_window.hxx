@@ -14,13 +14,20 @@ public:
   void setTargetFPS(const u32 fps);
 
   RaylibRenderer getRenderer(Color col);
+  
+  u32 getWidth();
+  u32 getHeight();
 
   ~RaylibWindow();
+private:
+  u32 width, height;
 };
 
 #ifdef RAYLIB_WINDOW_IMPL
 RaylibWindow::RaylibWindow(const u32 w, const u32 h, const char* title) {
-    InitWindow(w, h, title);
+  InitWindow(w, h, title);
+  width = w;
+  height = h;
 }
 
 void RaylibWindow::setTargetFPS(const u32 fps) {
@@ -36,15 +43,20 @@ bool RaylibWindow::shouldClose() {
 }
 
 RaylibRenderer RaylibWindow::getRenderer(Color col) {
-  printf("Created Renderer\n");
   return RaylibRenderer(col);
 }
 
 void RaylibWindow::Update(std::function<void(RaylibWindow*)> update_fn) {
   update_fn(this);
-  printf("Updated Screen Contents\n");
   SwapScreenBuffer();
-  printf("Swapped buffers\n");
+}
+
+u32 RaylibWindow::getWidth() {
+  return width;
+}
+
+u32 RaylibWindow::getHeight() {
+  return height;
 }
 
 #endif
