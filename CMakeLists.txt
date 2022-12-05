@@ -36,3 +36,21 @@ target_link_libraries(
 
 include(GoogleTest)
 gtest_discover_tests(code_test)
+
+add_executable(
+  vulkan_test
+  test/vulkan_test/vulkan_test_basic.cxx
+  graphics/wvk/wvk_context.cxx
+)
+
+target_link_libraries(
+  vulkan_test
+  glfw 
+  vulkan 
+  dl 
+  pthread 
+  X11 
+  Xxf86vm 
+  Xrandr 
+  Xi
+)
